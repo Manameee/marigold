@@ -1,0 +1,715 @@
+body{
+    height: 3950px;
+    width: 1365px;
+    background: #EAE7E7;
+}
+/* менюшка */
+.predMenu{
+    position: absolute;
+    width: 1365px;
+    height: 34px;
+    left: 0px;
+    top: 0px;
+
+    background: #155E63;
+}
+.t11{
+    position: absolute;
+    width: 224px;
+    height: 11px;
+    left: 348px;
+    top: 0px;
+
+    font-family: 'Marmelad';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 11px;
+    line-height: 13px;
+    text-align: center;
+
+    color: rgba(255, 255, 255, 0.62);
+}
+.t12{
+    position: absolute;
+    width: 159px;
+    height: 13px;
+    left: 844px;
+    top: 0px;
+
+    font-family: 'Marmelad';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 11px;
+    line-height: 13px;
+    text-align: center;
+
+    color: rgba(255, 255, 255, 0.62);
+}
+.sameMenu{
+    position: absolute;
+    width: 1365px;
+    height: 61px;
+    left: 0px;
+    top: 34px;
+
+    background: #F9F8EB;
+}
+.t21{
+    position: absolute;
+    width: 52px;
+    height: 9px;
+    left: 351px;
+    top: 15px;
+
+    font-family: 'Marmelad';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 11px;
+    line-height: 13px;
+    text-align: center;
+
+    color: #000000;
+}
+.t22{
+    position: absolute;
+    width: 103px;
+    height: 13px;
+    left: 428px;
+    top: 15px;
+
+    font-family: 'Marmelad';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 11px;
+    line-height: 13px;
+    text-align: center;
+
+    color: #000000;
+}
+.t23{
+    position: absolute;
+    width: 67px;
+    height: 13px;
+    left: 556px;
+    top: 15px;
+
+    font-family: 'Marmelad';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 11px;
+    line-height: 13px;
+    text-align: center;
+
+    color: #000000;
+}
+.t24{
+    position: absolute;
+    width: 39px;
+    height: 13px;
+    left: 648px;
+    top: 15px;
+
+    font-family: 'Marmelad';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 11px;
+    line-height: 13px;
+    text-align: center;
+
+    color: #000000;
+}
+.logo{
+    position: absolute;
+    width: 146px;
+    height: 95px;
+    left: 177px;
+    top: 0px;
+
+    background: #76B39D;
+    ;
+}
+.logoImg{
+    position: absolute;
+    width: 65px;
+    height: 78px;
+    left: 0px;
+    top: 17px;
+
+    background: url(./images/logoVanGoga.png);
+}
+form {
+    width:400px;
+    margin:auto;
+    margin-top: 18px;
+    margin-left: 980px;
+}
+input{
+    padding:4px 10px;
+    border:0;
+    font-size:5px;
+}
+.search {
+    width: 45%;
+    background: #7ba28f26;
+}
+.submit{
+    width: 70px;
+    background-color: #4F7365;
+    color:#ffffff;
+}
+/* верх, підменю */
+.fonoveZobr{
+    position: absolute;
+    width: 1365px;
+    height: 673px;
+    left: 0px;
+    top: 95px;
+
+    background: url(./images/verhFon.jpg);
+}
+.fonoveZatemennya{
+    position: absolute;
+    width: 1365px;
+    height: 673px;
+    left: 0px;
+    top: 95px;
+
+    background: linear-gradient(0deg, rgba(225, 225, 225, 0.1), rgba(225, 225, 225, 0.1)), rgba(21, 94, 99, 0.56);
+}
+.palka{
+    position: absolute;
+    width: 60px;
+    height: 0px;
+    left: 652px;
+    top: 252px;
+
+    border: 2px solid #FEFBF6;
+}
+.golovnaNazva{
+    position: absolute;
+    width: 647px;
+    height: 133px;
+    left: 359px;
+    top: 220px;
+
+    font-family: 'Marmelad';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 128px;
+    line-height: 152px;
+    text-align: center;
+
+    color: #F9F8EB;
+}
+.pidtextovaNazva{
+    position: absolute;
+    width: 424px;
+    height: 22px;
+    left: 471px;
+    top: 440px;
+
+    font-family: 'Marmelad';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    text-align: center;
+
+    color: #FFFFFF;
+}
+.buttonVerh{
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 145px;
+    height: 42px;
+    left: 610px;
+    top: 536px;
+
+    border: 3px solid #FEFBF6;
+}
+.tButtonVerh{
+    position: absolute;
+    width: 112px;
+    height: 23px;
+    left: 25px;
+    top: -14px;
+
+    font-family: 'Marmelad';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+
+    color: #FFFFFF;
+
+}
+
+.zeleiyBlock{
+    position: absolute;
+    width: 502px;
+    height: 343px;
+    left: 179px;
+    top: 733px;
+
+    background: #155E63;
+}
+.zBKontur{
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 426px;
+    height: 216px;
+    left: 28px;
+    top: 50px;
+
+    border: 5px solid #F9F8EB;
+}
+.vZKonture{
+    position: absolute;
+    width: 303px;
+    height: 61px;
+    left: 62px;
+    top: 33px;
+
+    font-family: 'Marmelad';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 57px;
+
+    color: #F9F8EB;
+}
+.miniGog{
+    position: absolute;
+    width: 112px;
+    height: 120px;
+    left: 335px;
+    top: 139px;
+}
+
+.biliyBlock{
+    position: absolute;
+    width: 504px;
+    height: 343px;
+    left: 681px;
+    top: 733px;
+
+    background: #F9F8EB;
+}
+.bBKontur{
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 426px;
+    height: 216px;
+    left: 31px;
+    top: 50px;
+
+    border: 5px solid #155E63;
+}
+.vBKonture{
+    position: absolute;
+    width: 311px;
+    height: 114px;
+    left: 66px;
+    top: 33px;
+
+    font-family: 'Marmelad';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 57px;
+
+    color: #155E63;
+}
+
+/* котолог */
+
+.nashKotolog{
+    position: absolute;
+    width: 245px;
+    height: 30px;
+    left: 564px;
+    top: 1166px;
+
+    font-family: 'Marmelad';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 29px;
+    text-align: center;
+
+    color: #000000;
+}
+.kotolog{
+    position: absolute;
+    width: 1006px;
+    height: 2011px;
+    left: 177px;
+    top: 1300px;
+
+    background: #FEFBF6;
+}
+
+.ki11{
+    position: absolute;
+    width: 505px;
+    height: 501px;
+    left: 0px;
+    top: 0px;
+}
+.ki12{
+    position: absolute;
+    width: 252px;
+    height: 251px;
+    left: 757px;
+    top: 0px;
+}
+.ki13{
+    position: absolute;
+    width: 252px;
+    height: 250px;
+    left: 505px;
+    top: 251px;
+}
+
+.ki21{
+    position: absolute;
+    width: 255px;
+    height: 257px;
+    left: 177px;
+    top: 2054px;
+}
+.ki22{
+    position: absolute;
+    width: 251px;
+    height: 253px;
+    left: 432px;
+    top: 1801px;
+}
+.ki23{
+    position: absolute;
+    width: 504px;
+    height: 510px;
+    left: 682px;
+    top: 1801px;
+}
+
+.ki31{
+    position: absolute;
+    width: 504px;
+    height: 499px;
+    left: 177px;
+    top: 2311px;
+}
+.ki32{
+    position: absolute;
+    width: 257px;
+    height: 252px;
+    left: 681px;
+    top: 2557px;
+}
+.ki33{
+    position: absolute;
+    width: 252px;
+    height: 246px;
+    left: 934px;
+    top: 2311px;
+}
+
+.ki41{
+    position: absolute;
+    width: 252px;
+    height: 248px;
+    left: 177px;
+    top: 3063px;
+}
+.ki42{
+    position: absolute;
+    width: 252px;
+    height: 253px;
+    left: 429px;
+    top: 2810px;
+}
+.ki43{
+    position: absolute;
+    width: 502px;
+    height: 501px;
+    left: 681px;
+    top: 2810px;
+}
+
+/* текст з каталогу */
+
+.t1{
+    position: absolute;
+    width: 108px;
+    height: 12px;
+    left: 754px;
+    top: 1402px;
+
+    font-family: 'Marmelad';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+    text-align: center;
+
+    color: #000000;
+
+}
+.t2{
+    position: absolute;
+    width: 130px;
+    height: 32px;
+    left: 996px;
+    top: 1654px;
+
+    font-family: 'Marmelad';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 15px;
+    text-align: center;
+
+    color: #000000;
+}
+.t3{
+    position: absolute;
+    width: 160px;
+    height: 31px;
+    left: 224px;
+    top: 1892px;
+
+    font-family: 'Marmelad';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+
+    color: #000000;
+}
+.t4{
+    position: absolute;
+    width: 143px;
+    height: 28px;
+    left: 486px;
+    top: 2161px;
+
+    font-family: 'Marmelad';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 15px;
+
+    color: #000000;
+}
+.t5{
+    position: absolute;
+    width: 160px;
+    height: 31px;
+    left: 728px;
+    top: 2413px;
+
+    font-family: 'Marmelad';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+
+    color: #000000;
+}
+.t6{
+    position: absolute;
+    width: 113px;
+    height: 28px;
+    left: 1009px;
+    top: 2669px;
+
+    font-family: 'Marmelad';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 15px;
+    text-align: center;
+
+    color: #000000;
+}
+.t7{
+    position: absolute;
+    width: 160px;
+    height: 28px;
+    left: 226px;
+    top: 2916px;
+
+    font-family: 'Marmelad';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 15px;
+    text-align: center;
+
+    color: #000000;
+}
+.t8{
+    position: absolute;
+    width: 143px;
+    height: 30px;
+    left: 486px;
+    top: 3169px;
+
+    font-family: 'Marmelad';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 15px;
+    text-align: center;
+
+    color: #000000;
+}
+
+/* під каталог */
+.buttonNiz{
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 144px;
+    height: 41px;
+    left: 610px;
+    top: 3377px;
+
+    border: 3px solid #FFFFFF;
+}
+.ocinka{
+    position: absolute;
+    width: 58px;
+    height: 11px;
+    left: 653px;
+    top: 3381px;
+
+    font-family: 'Marmelad';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 9px;
+    line-height: 11px;
+    /* identical to box height */
+
+    text-align: center;
+
+    color: #FFFFFF;
+}
+.svitli{
+    position: absolute;
+    width: 1363px;
+    height: 62px;
+    left: 0px;
+    top: 3478px;
+
+    background: #F9F8EB;
+}
+.kubik{
+    position: absolute;
+    width: 70px;
+    height: 70px;
+    left: 631px;
+    top: 3507.5px;
+
+    background: #76B39D;
+    transform: rotate(-45deg);
+}
+.zSamyiNiz{
+    position: absolute;
+    width: 1365px;
+    height: 410px;
+    left: 0px;
+    top: 3542px;
+
+    background: #155E63;
+}
+.tNiz1{
+    position: absolute;
+    width: 164px;
+    height: 15px;
+    left: 81px;
+    top: 3717px;
+
+    font-family: 'Marmelad';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 15px;
+    text-align: center;
+
+    color: #FFFFFF;
+}
+.tNiz2{
+    position: absolute;
+    width: 263px;
+    height: 15px;
+    left: 293px;
+    top: 3717px;
+
+    font-family: 'Marmelad';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 15px;
+    text-align: center;
+
+    color: #FFFFFF;
+}
+.tNiz3{
+    position: absolute;
+    width: 165px;
+    height: 15px;
+    left: 809px;
+    top: 3717px;
+
+    font-family: 'Marmelad';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 15px;
+    text-align: center;
+
+    color: #FFFFFF;
+}
+.tNiz4{
+    position: absolute;
+    width: 142px;
+    height: 15px;
+    left: 1050px;
+    top: 3717px;
+
+    font-family: 'Marmelad';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 15px;
+    text-align: center;
+
+    color: #FFFFFF;
+}
+.palkaNizLeft{
+    position: absolute;
+    width: 359px;
+    height: 0px;
+    left: 177px;
+    top: 3746px;
+
+    border: 1px solid #ECEDF1;
+    transform: rotate(0.16deg);
+}
+.palkaNizPravo{
+    position: absolute;
+    width: 359px;
+    height: 0px;
+    left: 824px;
+    top: 3745px;
+
+    border: 1px solid #ECEDF1;
+    transform: rotate(0.16deg);
+}
